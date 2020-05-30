@@ -1,0 +1,41 @@
+{
+  "author": "",
+  "browserslist": [
+    "last 2 Chrome versions"
+  ],
+  "bugs": {
+    "url": "https://github.com/geart891/Fgame/issues"
+  },
+  "description": "",
+  "devDependencies": {
+    "eslint": "^7.1.0",
+    "eslint-config-prettier": "^6.11.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-prettier": "^3.1.3",
+    "eslint-plugin-sort-class-members": "^1.7.0",
+    "eslint-plugin-sort-keys-fix": "^1.1.1",
+    "parcel": "^2.0.0-alpha.3.2",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.5.0",
+    "stylelint-config-prettier": "^8.0.1",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2"
+  },
+  "homepage": "https://github.com/geart891/Fgame#readme",
+  "keywords": [],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "FGame",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/geart891/Fgame.git"
+  },
+  "scripts": {
+    "dev": "parcel src/index.html --host localhost",
+    "dev:clean": "rm -rf .cache .parcel-cache dist/",
+    "lint": "eslint src/*.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
