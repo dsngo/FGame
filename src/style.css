@@ -26,8 +26,6 @@ body {
 }
 
 .inner {
-  height: 762px;
-  width: 762px;
   position: relative;
 }
 
@@ -39,7 +37,7 @@ body {
   left: 67px;
 }
 
-.game-night {
+.gamenight {
   width: 716px;
   top: 62px;
   left: -19px;
@@ -71,4 +69,73 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+
+/* Poop bags */
+
+.poop-bag {
+  position: absolute;
+  top: 300px;
+  left: 160px;
+}
+
+.modal-inner {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  background-color: blueviolet;
+  border-radius: 12px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  padding: 25px;
+}
+
+.modal-inner:empty {
+  display: none;
+}
+
+.fox {
+  position: absolute;
+  top: 336px;
+  left: 285px;
+  overflow: hidden;
+}
+
+.fox-pooping {
+  top: 319px;
+  left: 159px;
+}
+
+.fox-celebrate {
+  top: 290px;
+  left: 290px;
+}
+
+.fox-rain {
+  top: 362px;
+}
+
+.fox-hungry {
+  top: 362px;
+}
+
+.fox-eating {
+  top: 362px;
+}
+
+.fox-egg {
+  top: 289px;
+  left: 248px;
+}
+
+.fox-sleep {
+  top: 351px;
+  left: 445px;
+}
+
+.fox-dead {
+  top: 380px;
+  left: 243px;
 }
