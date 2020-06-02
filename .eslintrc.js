@@ -1,12 +1,6 @@
 const baseExtends = ["eslint:recommended", "plugin:import/errors", "prettier"];
-
 // Plugins
-const basePlugins = [
-  "import",
-  "sort-keys-fix",
-  "sort-class-members",
-  "prettier",
-];
+const basePlugins = ["import", "sort-keys-fix", "sort-class-members", "prettier"];
 
 // Rules
 const importOrderOptions = {
@@ -26,7 +20,7 @@ const paddingLineOptions = [
       "export",
       "return",
       "multiline-const",
-      "singleline-const",
+      // "singleline-const",
     ],
     prev: ["*"],
   },

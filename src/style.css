@@ -11,9 +11,9 @@ body {
 .container {
   position: absolute;
   top: 0;
-  bottom: 0;
   left: 0;
   right: 0;
+  bottom: 0;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -32,8 +32,8 @@ body {
 }
 
 .game {
-  height: 628px;
-  width: 577px;
+  height: 577px;
+  width: 628px;
   position: absolute;
   top: 62px;
   left: 67px;

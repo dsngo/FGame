@@ -5,16 +5,7 @@ const stylelintCfg = {
     "rule-empty-line-before": "always",
     "order/order": ["custom-properties", "declarations"],
     "order/properties-order": [
-      [
-        "height",
-        "width",
-        "position",
-        "top",
-        "bottom",
-        "left",
-        "right",
-        "display",
-      ],
+      ["height", "width", "position", "top", "left", "right", "bottom", "display"],
       { unspecified: "bottomAlphabetical" },
     ],
     // "order/properties-alphabetical-order": true,
